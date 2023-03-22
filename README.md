@@ -11,5 +11,5 @@
 
 
 <p align = "right">
-  <img src="git.icons/servidor-sql.png" width="250" title="SQL">
+  <img src="git.icons/servidor-sql.png" width="150" title="SQL">
 </p>
