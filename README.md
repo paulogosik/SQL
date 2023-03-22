@@ -4,7 +4,10 @@
 - :notebook: Segundo curso de SQL sendo feito pela Udemy, o primeiro foi mais iniciante
 - :globe_with_meridians: Aprendizado geral em Banco de Dados, Arquitetura de Software, Modelagem de projetos e SQL!
 - **Também é trabalhado:**
-  ### - Business Intelligence
+   - *Business Intelligence*
+   - *Lógica de Predicados*
+   - *Triggers*
+   - *Entre outros...*
 
 
 <p align = "right">
