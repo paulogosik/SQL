@@ -1,2 +1,2 @@
-# :medal_sports: SQL 
+# SQL :medal_sports:
 
