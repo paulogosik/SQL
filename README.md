@@ -1,8 +1,8 @@
 # SQL :medal_sports:
 
-- Curso: *Banco de dados e SQL, sem mistérios!*
-- :notebook: Segundo curso de SQL sendo feito
-- :globe_with_meridians: Aprendizado geral em Banco de Dados e SQL!
+- Curso: *O curso completo de Banco de dados e SQL, sem mistérios!*
+- :notebook: Segundo curso de SQL sendo feito pela Udemy, o primeiro foi mais iniciante
+- :globe_with_meridians: Aprendizado geral em Banco de Dados, Arquitetura de Software, Modelagem de projetos e SQL!
 
 
 <p align = "right">
