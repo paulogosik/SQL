@@ -6,5 +6,5 @@ FROM
 	funcionarios
 WHERE 
 	1 = 1
-    AND departamento = "Filmes"
-    OR departamento = "Roupas"
+    AND departamento = "Roupas"
+    OR departamento = "Filmes"
