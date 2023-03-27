@@ -1,0 +1,7 @@
+• Tipos de relacionamento
+
+1. Em relacionamento 1x1 a chave estrangeira fica na tabela mais fraca.
+    Ex.: Cliente é a tabela mais forte, já endereço e telefone são as mais fracas.
+
+2. Em realcionamentos 1xN a chave estrangeira sempre ficará na cardinalidade N.
+    Ex.: Entre cliente e telefone, a chave estrangeira fica na cardinalidade N, mais de uma chave estrangeira em telefone.
