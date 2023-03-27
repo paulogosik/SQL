@@ -1,0 +1,9 @@
+• PRIMEIRA FORMA NORMAL
+
+1 - Todo campo vetorizado se tornará outra tabela.
+    - EX.: [Amarelo, Azul, Laranja, Verde] -> Cores
+
+2 - Todo campo multivalorado se tornará outra tabela quando o campo for divisível, ou de família diferentes.
+    - EX.: Endereço - 505 Sul (Bairro) Alameda 38 (Rua), Palmas (Cidade) - TO (Estado).
+
+3 - Toda tabela necessita de pelo menos um campo que identifique todo o registro como sendo único. Ou seja, chave primária, Primary Key -> ID.
