@@ -7,4 +7,4 @@ FROM
 WHERE 
 	1 = 1
     AND departamento = "Roupas"
-    OR departamento = "Filmes"
+    OR departamento = "Filmes";
