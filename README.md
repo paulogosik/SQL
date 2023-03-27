@@ -7,7 +7,7 @@
    - *Business Intelligence*
    - *Lógica de Predicados*
    - *Triggers*
-   - Modelagem de DB's
+   - *Modelagem de DB's*
    - *Entre outros...*
 
 
