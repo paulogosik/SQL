@@ -7,5 +7,5 @@ SELECT
     , departamento
 FROM funcionarios
 WHERE
-	sexo = "Feminino"
-    AND (departamento = "Filmes" OR departamento = "Lar")
+	(departamento = "Filmes" AND sexo = "Feminino")
+    OR (departamento = "Lar" AND sexo = "Feminino")
