@@ -6,4 +6,4 @@ FROM funcionarios
 WHERE
 	1 = 1
 	AND sexo = "Masculino"
-    OR departamento = "Jardim"
+    OR departamento = "Jardim";
