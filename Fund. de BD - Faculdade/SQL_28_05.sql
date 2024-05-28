@@ -38,6 +38,17 @@
 -- SELECT cidadeCli FROM tb_cliente GROUP BY cidadeCli
 -- SELECT codAg FROM tb_conta GROUP BY codAg
 -- SELECT cidadeCli, count(*) AS 'Contagem' FROM tb_cliente GROUP BY cidadeCli
- SELECT t2.cidadeAg, AVG(saldo)
- FROM tb_conta t1 INNER JOIN tb_agencia t2 ON t1.codAg = t2.codAg
- GROUP BY t2.cidadeAg
+--  SELECT t2.cidadeAg, AVG(saldo)
+--  FROM tb_conta t1 INNER JOIN tb_agencia t2 ON t1.codAg = t2.codAg
+--  GROUP BY t2.cidadeAg
+
+
+-- UPDATE: Atualizando Dados; ------------------------
+-- UPDATE tb_agencia SET nomeAg = 'CENTRO SUL' WHERE codAg = 2
+
+
+-- DELETE: Excluindo Dados; ------------------------
+DELETE FROM tb_cliente WHERE codCli = 1
+DELETE FROM tb_conta WHERE codCli = (
+	SELECT codCli FROM tb_cliente WHERE nomeCli = 'Ana Banana'
+)
