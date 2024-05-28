@@ -1,0 +1,18 @@
+-- Insert: usado para inserir
+
+INSERT INTO tb_cliente(nomeCli, emailCli) VALUES ('Beto Bolado', 'beto@banco.br')
+INSERT INTO tb_cliente(nomeCli, emailCli, cidadeCli) VALUES ('Ana Banana', 'ana@banco.br', 'Gurupi')
+INSERT INTO tb_cliente(nomeCli, emailCli, cidadeCli) VALUES ('Zelda Scotti', 'zelda@banco.br','Paraíso')
+INSERT INTO tb_cliente(nomeCli, emailCli) VALUES ('Carla Cansada', 'carla@banco.br')
+INSERT INTO tb_agencia(nomeAg, cidadeAg) VALUES ('Centro', 'Gurupi')
+INSERT INTO tb_agencia(nomeAg) VALUES ('Centro')
+INSERT INTO tb_agencia(nomeAg, cidadeAg) VALUES ('Cantagalo', 'Gurupi')
+INSERT INTO tb_agencia(nomeAg) VALUES ('Bosque')
+INSERT INTO tb_conta(codCli, codAg, saldo) VALUES (1, 2, 500.00)
+INSERT INTO tb_conta(codCli, codAg, saldo) VALUES (2, 2, 1000.00)
+INSERT INTO tb_conta(codCli, codAg) VALUES (2, 1)
+INSERT INTO tb_conta(codCli, codAg, saldo) VALUES (3, 1, 1500.00)
+INSERT INTO tb_emprestimo(codCli, codAg, valor, taxa, qtMeses, saldo) VALUES (2, 2, 1000.00, 0.5, 12, 500.00)
+INSERT INTO tb_emprestimo(codCli, codAg, valor, taxa, qtMeses, saldo) VALUES (2, 3, 5500.00, 0.3, 36, 2800.00)
+INSERT INTO tb_emprestimo(codCli, codAg, valor, taxa, qtMeses, saldo) VALUES (3, 3, 5000.00, 0.2, 24, 800.00)
+INSERT INTO tb_emprestimo(codCli, codAg, valor, taxa, qtMeses) VALUES (4, 2, 10000.00, 0.7, 15)
