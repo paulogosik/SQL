@@ -1,0 +1,1 @@
+BACKUP DATABASE db_atividade_g2 TO DISK = 'C:\Backup\primeirobackup.bak' WITH FORMAT
