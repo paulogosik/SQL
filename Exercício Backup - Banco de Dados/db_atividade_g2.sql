@@ -43,6 +43,11 @@ BACKUP DATABASE db_atividade_g2 TO DISK = 'C:\Backup\primeirobackup.bak' WITH FO
 
 
 -- Restaurando Banco de Dados
-RESTORE DATABASE db_atividade_g2
+RESTORE DATABASE teste4
 FROM DISK = 'C:\Backup\primeirobackup.bak'
-WITH REPLACE, RECOVERY;
+WITH 
+    MOVE 'db_atividade_g2' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\teste4.mdf',
+	MOVE 'db_atividade_g2_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\teste4_log.ldf',
+    REPLACE;
+
+USE teste4
